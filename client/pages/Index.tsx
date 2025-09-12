@@ -33,25 +33,25 @@ export default function Index() {
               </span>
             </h1>
             <p className="max-w-xl text-white/70 text-base sm:text-lg">
-              Masuk ke dunia Web3 yang elegan dan profesional. RadutVerse
-              menghadirkan pengalaman kripto yang modern, cepat, dan mudah
-              dipahami untuk semua orang.
+              Step into a Web3 world that is elegant and professional. RadutVerse
+              delivers a modern, fast, and easy-to-understand crypto experience
+              for everyone.
             </p>
             <div className="flex flex-wrap gap-3">
               <a href="#about">
                 <Button className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_20px_theme(colors.primary.DEFAULT)]">
-                  Mulai Jelajah
+                  Start Exploring
                 </Button>
               </a>
               <a href="#news">
                 <Button variant="secondary" className="bg-white/10 text-white hover:bg-white/20">
-                  Lihat Berita
+                  View News
                 </Button>
               </a>
             </div>
             <div className="flex items-center gap-3 pt-4">
               <img src={logoUrl} alt="RadutVerse" className="h-10 w-10 rounded" />
-              <span className="text-sm text-white/60">Tema mengikuti logo resmi RadutVerse</span>
+              <span className="text-sm text-white/60">Theme follows the official RadutVerse logo</span>
             </div>
           </div>
           <div className="lg:col-span-5">
@@ -66,37 +66,37 @@ export default function Index() {
       <section id="about" className="relative border-t border-white/10">
         <div className="container grid gap-10 py-20 lg:grid-cols-12 lg:gap-12">
           <div className="lg:col-span-5">
-            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Tentang RadutVerse</h2>
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">About RadutVerse</h2>
             <p className="mt-4 text-white/70">
-              RadutVerse adalah ekosistem yang berfokus pada pengalaman Web3 yang
-              sederhana dan dapat diandalkan. Desain minimalis, navigasi yang
-              intuitif, serta akses ke konten kripto terbaru menjadikan
-              RadutVerse tempat yang nyaman bagi pemula maupun antusias web3.
+              RadutVerse is an ecosystem focused on a simple and reliable Web3
+              experience. Minimalist design, intuitive navigation, and access to
+              the latest crypto content make RadutVerse a comfortable place for
+              beginners and web3 enthusiasts alike.
             </p>
           </div>
           <div className="lg:col-span-7 grid gap-6 sm:grid-cols-2">
             <div className="rounded-xl border border-white/10 bg-white/5 p-6">
-              <h3 className="font-semibold">Desain Profesional</h3>
+              <h3 className="font-semibold">Professional Design</h3>
               <p className="mt-2 text-sm text-white/70">
-                Antarmuka bersih dengan tipografi tajam dan kontras yang tepat.
+                Clean interface with crisp typography and proper contrast.
               </p>
             </div>
             <div className="rounded-xl border border-white/10 bg-white/5 p-6">
-              <h3 className="font-semibold">Ramah Web3</h3>
+              <h3 className="font-semibold">Web3-Friendly</h3>
               <p className="mt-2 text-sm text-white/70">
-                Nuansa neon dan gelap yang familiar bagi komunitas kripto.
+                Neon and dark aesthetics familiar to the crypto community.
               </p>
             </div>
             <div className="rounded-xl border border-white/10 bg-white/5 p-6">
-              <h3 className="font-semibold">Kinerja Cepat</h3>
+              <h3 className="font-semibold">Fast Performance</h3>
               <p className="mt-2 text-sm text-white/70">
-                Dibangun dengan teknologi modern untuk kecepatan dan stabilitas.
+                Built with modern tech for speed and stability.
               </p>
             </div>
             <div className="rounded-xl border border-white/10 bg-white/5 p-6">
-              <h3 className="font-semibold">Fokus Komunitas</h3>
+              <h3 className="font-semibold">Community Focus</h3>
               <p className="mt-2 text-sm text-white/70">
-                Berita dan pembaruan terkini, kurasi dari sumber tepercaya.
+                Curated updates from trusted Web3 sources.
               </p>
             </div>
           </div>
@@ -108,8 +108,8 @@ export default function Index() {
         <div className="container py-20">
           <div className="mb-10 flex items-end justify-between gap-4">
             <div>
-              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Tim Inti</h2>
-              <p className="mt-2 text-white/70">Orang-orang di balik RadutVerse</p>
+              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Core Team</h2>
+              <p className="mt-2 text-white/70">The people behind RadutVerse</p>
             </div>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -139,34 +139,34 @@ export default function Index() {
         <div className="container py-20">
           <div className="mb-10 flex items-end justify-between gap-4">
             <div>
-              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Berita Terkini</h2>
-              <p className="mt-2 text-white/70">Update singkat seputar RadutVerse dan web3</p>
+              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Latest News</h2>
+              <p className="mt-2 text-white/70">Quick updates on RadutVerse and Web3</p>
             </div>
             <a href="#home">
               <Button variant="secondary" className="bg-white/10 text-white hover:bg-white/20">
-                Kembali ke Atas
+                Back to Top
               </Button>
             </a>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {[
               {
-                title: "Peluncuran RadutVerse v1",
+                title: "RadutVerse v1 Launch",
                 date: "2025-09-01",
                 excerpt:
-                  "Versi perdana dengan desain minimalis, performa tinggi, dan navigasi yang mulus.",
+                  "The first release featuring a minimalist design, high performance, and smooth navigation.",
               },
               {
-                title: "Integrasi Wallet akan hadir",
+                title: "Wallet Integration is Coming",
                 date: "2025-10-10",
                 excerpt:
-                  "Kami menyiapkan dukungan koneksi wallet non-custodial untuk autentikasi yang aman.",
+                  "We are preparing non-custodial wallet connections for secure authentication.",
               },
               {
-                title: "Program Komunitas",
+                title: "Community Program",
                 date: "2025-11-05",
                 excerpt:
-                  "Rangkaian event online untuk edukasi dan kolaborasi ekosistem Web3 di RadutVerse.",
+                  "A series of online events for education and collaboration within the RadutVerse Web3 ecosystem.",
               },
             ].map((a) => (
               <article key={a.title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
@@ -174,7 +174,7 @@ export default function Index() {
                 <h3 className="mt-2 text-lg font-semibold">{a.title}</h3>
                 <p className="mt-2 text-sm text-white/70">{a.excerpt}</p>
                 <div className="mt-4">
-                  <Button variant="link" className="p-0 text-primary">Baca Selengkapnya</Button>
+                  <Button variant="link" className="p-0 text-primary">Read More</Button>
                 </div>
               </article>
             ))}
