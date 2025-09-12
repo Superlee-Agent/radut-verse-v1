@@ -25,7 +25,11 @@ function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/30 backdrop-blur supports-[backdrop-filter]:bg-black/40">
       <div className="container flex h-16 items-center justify-between">
         <a href="#home" className="flex items-center gap-3">
-          <img src={logoUrl} alt="RadutVerse logo" className="h-8 w-8 rounded" />
+          <img
+            src={logoUrl}
+            alt="RadutVerse logo"
+            className="h-8 w-8 rounded"
+          />
           <span className="text-white font-extrabold tracking-tight text-lg">
             RadutVerse
           </span>
